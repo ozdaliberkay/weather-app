@@ -84,7 +84,7 @@ export default function MainScreen() {
   const fetchCityFromCoordinates = async (latitude, longitude) => {
     try {
       const response = await fetch(
-        `https://api.opencagedata.com/geocode/v1/json?q=${latitude}+${longitude}&key=4f38c2f774cd4257ba6ea8962881fa94`
+        `https://api.opencagedata.com/geocode/v1/json?q=${latitude}+${longitude}&key=YOUR_API_KEY`
       );
       const data = await response.json();
       if (data.results.length > 0) {
