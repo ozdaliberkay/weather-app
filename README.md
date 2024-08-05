@@ -5,7 +5,7 @@
 ## Features
 
 - **City Selection:** On the main screen, you can view a list of cities and select one to check the weather. You can also search for cities using the search bar to find specific locations quickly.
-- **Current Location Weather:** The app can fetch and display weather data for your current location using the device's location services.
+- **Current Location Weather:** The app can fetch and display weather data for your current location using the device's location services. After detecting your location, the app uses the OpenCage Geocoding API to determine the city name based on the coordinates.
 - **7-Day Forecast:** Get a 7-day weather forecast with detailed daily and hourly predictions, visually represented using charts for better insights.
 - **Data Visualization:** Weather data, including forecasts, is visualized using charts for a clearer understanding. The application utilizes **React Native Chart Kit** to present weather information in a visually appealing manner.
 - **User-friendly Design:** The app includes a modern design with intuitive navigation for a seamless user experience.
@@ -14,6 +14,7 @@
 
 - **React Native:** Framework used for building the mobile app.
 - **Open-Meteo API:** Provides weather data for the application.
+- **OpenCage Geocoding API:** Used for determining city names based on coordinates.
 - **Expo Vector Icons:** Enhances the app's appearance with a variety of icons.
 - **React Native Chart Kit:** Visualizes weather data and forecasts with charts.
 - **Expo Location:** Retrieves the user's current location to provide location-based weather information.
